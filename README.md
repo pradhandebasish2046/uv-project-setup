@@ -1,8 +1,10 @@
-# uv-project-setup
+# MyProject Setup
+
+```bash
 curl -Ls https://astral.sh/uv/install.sh | bash
 export PATH="$HOME/.cargo/bin:$PATH"
-source ~/.bashrc  # reload the shell
-uv --version  # verify the version
+source ~/.bashrc
+uv --version
 
 mkdir myproject && cd myproject
 uv venv
