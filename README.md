@@ -12,3 +12,6 @@ source .venv/bin/activate
 uv add numpy
 uv sync
 uv lock
+
+# Tu run ipynb
+uv add --dev ipykernel
